@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> my image S</title>
+    <link rel="icon" type="image/png"
+    href="favicon.png">
+  </head>
+<body>
+
+<h2>Image Maps</h2>
+<p>Click on any object in the  image to know more about that :</p>
+
+<img src="sun.jpg" alt="Workplace" usemap="#imagmap">
+
+<map name="imagmap">
+  <area shape="rect" coords="509,208,875,461" alt="sun" href="sun.html">
+  <area shape="rect" coords="304,376,458,466" alt="ship" href="ship.html"> 
+</map>
+<picture>
+  <source media ="(min-width:650px)" srcset="car.jpg">
+  <source media ="(min-width:450px)" srcset="food.jpg">
+  <img src="girl.jpg">
+</picture>
+
+</body>
+</html>
+
+
