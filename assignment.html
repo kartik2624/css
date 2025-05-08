@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            text-align: center;
+            background-color: lightgray;
+            padding: 20px;
+        }
+        main{
+            padding: 20px;
+            background-color: burlywood;
+            margin: auto;
+            max-width: 800px;
+        }
+        form{
+            display: flex; 
+            flex-direction: column;
+            max-width: 500px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+        
+        }
+        footer{
+            background-color: lightblue;
+            padding: 10px;
+            text-align: center;
+        }
+        label{
+            font-weight: bold;
+        }
+        submit{
+            background-color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <nav> 
+        <a href="#"> Home   </a>
+        <a href="#"> Archives   </a>
+        <a href="#"> Contact </a>
+    </nav>
+    <br>
+    
+        <h1 style="text-align: left;"> Register Your Assyrian Roots  </h1>
+        <form>
+            <label for="full name">Full name</label>
+            <input type="text" id="name">
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email ID"> <br>
+
+            <label for="date of birth">Birth date</label>
+            <input type="date" id="date of birth"> <br>
+
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender">
+                    <option value="#"> select gender </option>
+                    <option value="Male"> Male </option>
+                    <option value="Female"> Female </option>
+                    <option value="others"> Others </option>
+            </select>
+            <br>
+
+            <lebal for="message"> Tell us about your ancestry:</lebal>
+            <textarea id="info" name="info" cols="50" rows="5"> write in the box </textarea>
+            <br>
+            <label for="fileupload">Upload file Crest</label>
+            <input type="file" name="fileupload" accept="image\*>
+            <br>
+
+            <label for="password">Create Password</label>
+            <input type="password" name="password">
+            <br>
+
+            Favorite Traditional color : <input type="color" id="color" name="color" value="color">
+            <br>
+
+            Cultural knolwedge (0-10):<input type="range" id="range" name="knolwedge" min="0" max="10" value="5"> <br>
+
+             Your website: <input type="url" id="website" name="website" placeholder="https://yourheritage.com"  required> <br>
+
+            Generations Traced: <input type="text" placeholder="3" maxlength="100" minlength="2"> <br>
+
+            Best time to Contact : <input type="time" id="best time" name="best time">
+            <datalist id="time">
+                <option value='monring' >
+                <option value="afternoon" >
+                <option value=" Evening">
+            </datalist><br>
+
+            <label for="subscribe">Agree to share your data :</label>
+            <input type="checkbox" name="subscribe" value="yes">
+            <br>
+
+            <label for="subscribe">Subscribe to newsteller :</label>
+            <input type="checkbox" name="subscribe" value="yes">
+             <br>
+
+            <label for="submit"> Submit Button :</label>
+            <input type="submit" name="sumbit" >
+
+
+        </form>
+    
+    
+    
+</body>
+</html>
